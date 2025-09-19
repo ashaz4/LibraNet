@@ -1,0 +1,218 @@
+{
+  "fines": {},
+  "items": [
+    {
+      "author": "George Orwell",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 1,
+      "page_count": 328,
+      "title": "1984",
+      "type": "Book"
+    },
+    {
+      "author": "Harper Lee",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 2,
+      "page_count": 281,
+      "title": "To Kill a Mockingbird",
+      "type": "Book"
+    },
+    {
+      "author": "Robert C. Martin",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 3,
+      "page_count": 464,
+      "title": "Clean Code",
+      "type": "Book"
+    },
+    {
+      "author": "Andrew Hunt & David Thomas",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 4,
+      "page_count": 352,
+      "title": "The Pragmatic Programmer",
+      "type": "Book"
+    },
+    {
+      "author": "Cormen et al.",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 5,
+      "page_count": 1312,
+      "title": "Introduction to Algorithms",
+      "type": "Book"
+    },
+    {
+      "author": "Ian Goodfellow",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 6,
+      "page_count": 775,
+      "title": "Deep Learning",
+      "type": "Book"
+    },
+    {
+      "author": "James Clear",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "duration": 450,
+      "id": 7,
+      "title": "Atomic Habits",
+      "type": "Audiobook"
+    },
+    {
+      "author": "Charles Duhigg",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "duration": 420,
+      "id": 8,
+      "title": "The Power of Habit",
+      "type": "Audiobook"
+    },
+    {
+      "author": "Yuval Noah Harari",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "duration": 660,
+      "id": 9,
+      "title": "Sapiens (Audio)",
+      "type": "Audiobook"
+    },
+    {
+      "author": "Robert Kiyosaki",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "duration": 300,
+      "id": 10,
+      "title": "Rich Dad Poor Dad (Audio)",
+      "type": "Audiobook"
+    },
+    {
+      "author": "Editorial Board",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 11,
+      "issue_number": 42,
+      "title": "Tech Today",
+      "type": "EMagazine"
+    },
+    {
+      "author": "Nature",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 12,
+      "issue_number": 256,
+      "title": "Nature Highlights",
+      "type": "EMagazine"
+    },
+    {
+      "author": "AI Lab",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 13,
+      "issue_number": 7,
+      "title": "AI Monthly",
+      "type": "EMagazine"
+    },
+    {
+      "author": "Gadgets Inc.",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 14,
+      "issue_number": 19,
+      "title": "Gadget Review",
+      "type": "EMagazine"
+    },
+    {
+      "author": "Joshua Bloch",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 15,
+      "page_count": 412,
+      "title": "Effective Java",
+      "type": "Book"
+    },
+    {
+      "author": "Gamma et al.",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 16,
+      "page_count": 395,
+      "title": "Design Patterns",
+      "type": "Book"
+    },
+    {
+      "author": "Kyle Simpson",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 17,
+      "page_count": 278,
+      "title": "You Don't Know JS",
+      "type": "Book"
+    },
+    {
+      "author": "Carol Dweck",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "duration": 360,
+      "id": 18,
+      "title": "Mindset",
+      "type": "Audiobook"
+    },
+    {
+      "author": "Travel Desk",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 19,
+      "issue_number": 88,
+      "title": "Travel Weekly",
+      "type": "EMagazine"
+    },
+    {
+      "author": "Paulo Coelho",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 20,
+      "page_count": 208,
+      "title": "The Alchemist",
+      "type": "Book"
+    },
+    {
+      "author": "Ashaz",
+      "available": true,
+      "borrow_date": null,
+      "due_date": null,
+      "id": 21,
+      "page_count": 444,
+      "title": "Ashaz Journal",
+      "type": "Book"
+    }
+  ],
+  "metadata": {
+    "exported_at": "2025-09-19T17:54:24.486894"
+  }
+}
