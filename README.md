@@ -1,27 +1,40 @@
-﻿LibraNet
-LibraNet is a Python-based library management system that handles books, audiobooks, and e-magazines. It supports borrowing, returns, fine calculation, persistent storage in JSON, tabular displays, and receipt generation.
+# LibraNet
 
-Features
-• Core Library Functions
-o Borrow and return items with due dates and fine calculation.
-o Automatic fine handling based on overdue periods.
-o Availability checks for each item.
-• Specialized Item Behaviors
-o Books include page counts.
-o Audiobooks implement a playable interface.
-o E-magazines allow issue archiving.
-• Persistent Data Management
-o All transactions stored in JSON (library.json and transactions.json).
-o Automatic backup file generated (library_backup.json).
-o Corrupted or missing data handled gracefully.
-• User Experience Enhancements
-o Rich tabular display of items with colorized terminal output.
-o Search by item type, title, or author.
-o Receipts generated for borrowing and returning.
-• Statistics Dashboard
-o Displays total items, borrowed vs available counts, and total fines collected.
+LibraNet is a Python-based library management system that handles books, audiobooks, and e-magazines. 
+It supports borrowing, returns, fine calculation, persistent storage in JSON, tabular displays, and receipt generation.
 
-Project Structure
+---
+
+## Features
+
+- **Core Library Functions**
+  - Borrow and return items with due dates and fine calculation.  
+  - Automatic fine handling based on overdue periods.  
+  - Availability checks for each item.  
+
+- **Specialized Item Behaviors**
+  - Books include page counts.  
+  - Audiobooks implement a playable interface.  
+  - E-magazines allow issue archiving.  
+
+- **Persistent Data Management**
+  - All transactions stored in JSON (`library.json` and `transactions.json`).  
+  - Automatic backup file generated (`library_backup.json`).  
+  - Corrupted or missing data handled gracefully.  
+
+- **User Experience Enhancements**
+  - Rich tabular display of items with colorized terminal output.  
+  - Search by item type, title, or author.  
+  - Receipts generated for borrowing and returning.  
+
+- **Statistics Dashboard**
+  - Displays total items, borrowed vs available counts, and total fines collected.  
+
+---
+
+## Project Structure
+
+```bash
 LibraNet/
 │── main.py              # Entry point with menu system
 │── data_manager.py      # JSON load, save, and backup
@@ -42,36 +55,55 @@ LibraNet/
     ├── library.json         # Main library data
     ├── transactions.json    # Borrow/return history
     └── library_backup.json  # Auto backup file
+```
 
-Design Choices
-• Object-Oriented Design
-o Abstract base class BaseItem ensures all items share common properties and behavior.
-o Each specialized item (Book, Audiobook, EMagazine) extends BaseItem while adding its unique functionality.
-• Extensibility
-o Adding a new item type only requires creating a new subclass and updating the manager minimally.
-o The design supports future integrations like digital borrowing or external APIs.
-• Data Persistence
-o JSON chosen for simplicity, readability, and easy auditing.
-o Transactions and library data are separated to ensure a clear history.
-• User Interaction
-o Rich library (rich) is used to provide colorized, modern console output.
-o Receipts give a professional touch for tracking borrow/return actions.
-• Error Handling
-o Graceful recovery from missing or corrupted data files.
-o Fines stored as Decimal for financial accuracy.
+---
 
-Getting Started
-1. Clone the repository or download it.
-2. Navigate to the project directory:
-3. cd LibraNet
-4. Install dependencies:
-5. pip install rich
-6. Run the program:
-7. python main.py
+## Design Choices
 
-Future Improvements
-• Web or GUI version for broader usability.
-• User authentication and role-based access (admin vs member).
-• Integration with a payment gateway for fines.
-• Recommendation engine for books and audiobooks.
+- **Object-Oriented Design**
+  - Abstract base class `BaseItem` ensures all items share common properties and behavior.  
+  - Each specialized item (`Book`, `Audiobook`, `EMagazine`) extends `BaseItem` while adding its unique functionality.  
 
+- **Extensibility**
+  - Adding a new item type only requires creating a new subclass and updating the manager minimally.  
+  - The design supports future integrations like digital borrowing or external APIs.  
+
+- **Data Persistence**
+  - JSON chosen for simplicity, readability, and easy auditing.  
+  - Transactions and library data are separated to ensure a clear history.  
+
+- **User Interaction**
+  - Rich library (`rich`) is used to provide colorized, modern console output.  
+  - Receipts give a professional touch for tracking borrow/return actions.  
+
+- **Error Handling**
+  - Graceful recovery from missing or corrupted data files.  
+  - Fines stored as `Decimal` for financial accuracy.  
+
+---
+
+## Getting Started
+
+1. Clone or download the repository.  
+2. Navigate to the project directory:  
+   ```bash
+   cd LibraNet
+   ```  
+3. Install dependencies:  
+   ```bash
+   pip install rich
+   ```  
+4. Run the program:  
+   ```bash
+   python main.py
+   ```  
+
+---
+
+## Future Improvements
+
+- Web or GUI version for broader usability.  
+- User authentication and role-based access (admin vs member).  
+- Integration with a payment gateway for fines.  
+- Recommendation engine for books and audiobooks.  
